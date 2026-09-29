@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: PayMaster.InputFixer
+PackageVersion: 1.1.6.40
+InstallerType: inno
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+MinimumOSVersion: 10.0.17763.0
+ProductCode: '{7D2B3F6E-9C1A-4A8E-B5D4-0F6E2C7A91D3}_is1'
+AppsAndFeaturesEntries:
+- DisplayName: Input Fixer
+  Publisher: PAYMASTER TECHNOLOGIES ELEKTRONIK PAZARLAMA DIS TICARET LIMITED SIRKETI
+  DisplayVersion: 1.1.6+40
+  ProductCode: '{7D2B3F6E-9C1A-4A8E-B5D4-0F6E2C7A91D3}_is1'
+  InstallerType: inno
+ReleaseDate: 2026-09-28
+Installers:
+- Architecture: x64
+  InstallerUrl: https://wm.mycdn.ink/secretkeeper/winget/InputFixer-1.1.6-40.exe
+  InstallerSha256: A118A108E0452F6458F7008C4037EEBE45E5B4E6AB13F0DEE8ECB6A27165FC27
+ManifestType: installer
+ManifestVersion: 1.12.0
