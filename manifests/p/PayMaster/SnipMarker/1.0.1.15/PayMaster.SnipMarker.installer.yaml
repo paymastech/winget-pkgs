@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: PayMaster.SnipMarker
+PackageVersion: 1.0.1.15
+InstallerType: inno
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+MinimumOSVersion: 10.0.17763.0
+ProductCode: '{61C7EAE6-AA08-43B0-91E3-A4A1A01BF8FC}_is1'
+AppsAndFeaturesEntries:
+- DisplayName: Snip Marker
+  Publisher: PAYMASTER TECHNOLOGIES ELEKTRONIK PAZARLAMA DIS TICARET LIMITED SIRKETI
+  DisplayVersion: 1.0.1+15
+  ProductCode: '{61C7EAE6-AA08-43B0-91E3-A4A1A01BF8FC}_is1'
+  InstallerType: inno
+ReleaseDate: 2026-09-28
+Installers:
+- Architecture: x64
+  InstallerUrl: https://wm.mycdn.ink/secretkeeper/winget/SnipMarker-1.0.1-15.exe
+  InstallerSha256: B0EAE28DB1B91BCCFFB94501ABBD9993C4568C180038192E21D1290C0B05216F
+ManifestType: installer
+ManifestVersion: 1.12.0
