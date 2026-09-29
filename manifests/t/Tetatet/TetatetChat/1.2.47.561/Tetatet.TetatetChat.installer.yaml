@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: Tetatet.TetatetChat
+PackageVersion: 1.2.47.561
+InstallerType: msix
+PackageFamilyName: Tetatet.Chat_ext3tx3jt8vvj
+MinimumOSVersion: 10.0.17763.0
+ReleaseDate: 2026-09-29
+Installers:
+- Architecture: x64
+  InstallerUrl: https://wm.mycdn.ink/secretkeeper/winget/TetatetChat-1.2.47-561.msix
+  InstallerSha256: F758F2B3B14042C915C0100DB06A5E7C9FB48B4408ABEFEE8A7316FB6636149C
+  SignatureSha256: 9F29149CB54B8317C1B86AD487F19094D9B8A05FFE0D399D43EEED32D96BEC3B
+ManifestType: installer
+ManifestVersion: 1.12.0
